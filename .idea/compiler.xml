@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="transactionservice" />
+        <module name="rulesservice" />
+        <module name="CustomerService" />
+        <module name="Authentication-MS" />
+        <module name="accountservice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="accountservice" target="1.8" />
+      <module name="Authentication-MS" target="1.8" />
+      <module name="CustomerService" target="1.8" />
+      <module name="rulesservice" target="1.8" />
+      <module name="transactionservice" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Authentication-MS" options="-parameters" />
+      <module name="CustomerService" options="-parameters" />
+      <module name="accountservice" options="-parameters" />
+      <module name="rulesservice" options="-parameters" />
+      <module name="transactionservice" options="-parameters" />
+    </option>
+  </component>
+</project>

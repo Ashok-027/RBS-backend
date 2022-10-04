@@ -1,0 +1,6 @@
+# Project exclude paths
+/accountms/target/
+/authenticationms/target/
+/customerms/target/
+/rulesms/target/
+/transactionservice/target/

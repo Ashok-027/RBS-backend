@@ -1,0 +1,2 @@
+insert into appuser (userid,auth_token,password,role,username) values ('EMPLOYEE101',null,'root','EMPLOYEE','Ravi');
+insert into appuser (userid,auth_token,password,role,username) values ('CUSTOMER101',null,'root','CUSTOMER','Shiva');
